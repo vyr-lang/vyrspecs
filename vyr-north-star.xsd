@@ -46,11 +46,12 @@
   <xs:simpleType name="RequirementIdType">
     <xs:annotation>
       <xs:documentation>
-        Lowercase kebab-case identifiers (e.g. "locality", "no-hidden-costs").
+        Lowercase single-word English identifiers (e.g. "locality", "correctness").
+        No hyphens or separators.
       </xs:documentation>
     </xs:annotation>
     <xs:restriction base="xs:string">
-      <xs:pattern value="[a-z][a-z0-9]*(?:-[a-z0-9]+)*"/>
+      <xs:pattern value="[a-z]+"/>
       <xs:minLength value="2"/>
       <xs:maxLength value="64"/>
     </xs:restriction>
