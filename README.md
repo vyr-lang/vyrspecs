@@ -1,2 +1,3 @@
-# vyrspecs
-vyrspecs holds the authoritative working draft documents of the Vyr programming language.
+# Vyr Specifications
+
+This repository contains the official specifications of the Vyr programming language.
